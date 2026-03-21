@@ -1,0 +1,100 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #d4f5e9, #a8e6cf);
+  margin: 0;
+}
+
+.container {
+  max-width: 380px;
+  margin: 20px auto;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.announcement {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  font-size: 20px;
+}
+
+.hero p {
+  color: #777;
+}
+
+.button {
+  display: inline-block;
+  background: #0f9d58;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.brands img {
+  width: 50px;
+}
+
+.section-title {
+  font-size: 16px;
+}
+
+.products {
+  display: flex;
+  gap: 10px;
+}
+
+.product {
+  width: 50%;
+  background: #fafafa;
+  padding: 8px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product h3 {
+  font-size: 13px;
+}
+
+.product p {
+  font-weight: bold;
+}
+aside, .widget, footer {
+  display: none !important;
+}
