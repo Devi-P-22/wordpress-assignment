@@ -21,5 +21,8 @@ This project recreates the mobile homepage using WordPress and ACF.
 3. Install ACF plugin
 4. Import/create fields
 
+## Loom Video
+Link : https://www.loom.com/share/3447be8360cb4eb4a3febaa28eaf5d1d
+
 ## Author
 Devi P
